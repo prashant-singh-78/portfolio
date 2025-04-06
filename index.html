@@ -8,11 +8,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
  
 
 
 </head>
 <body>
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="bg-video.mp4" type="video/mp4">
+  </video>
+  
   <nav>
     <div class="nav-content">
       <h1 class="logo">Portfolio</h1>
@@ -65,7 +74,18 @@
 
   <footer>
     <p>&copy; 2025 Prashant's Portfolio. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/prashant-singh-7047572a0/" target="_blank">
+        <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+      </a>
+      |<a href="https://github.com/prashant-singh-78/prashant" target="_blank">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      
+      </a>
+    </div>
   </footer>
+  
 
   <!-- EmailJS and Script -->
   <script type="module" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>

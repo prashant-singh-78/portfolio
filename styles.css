@@ -5,11 +5,24 @@
     font-family: 'Underdog', Arial, sans-serif;
 
 }
+#bg-video {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+  
 
+    top: 0;
+    left: 0;
+}
 body {
 
-    line-height: 1.6;
-    background: url("./background\ image.webp") no-repeat center center fixed;
+  
+      
+      
+   
     background-size: cover;
     color: #442020;
 }
