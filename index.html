@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Underdog&display=swap" rel="stylesheet">
+ 
+
+
+</head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <h1 class="logo">Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="#contact1">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm Prashant</h1>
+        <p>A PASSINATE DEVELOPER</p>
+        <a href="#contact1" class="cta-button">Get In Touch</a>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend Development</h3>
+          <div class="skill-level">HTML, CSS, JavaScript, React</div>
+        </div>
+        <div class="skill-card">
+          <h3>Backend Development</h3>
+          <div class="skill-level">Python, Node.js, flask</div>
+        </div>
+        <div class="skill-card">
+          <h3>Database</h3>
+          <div class="skill-level">MySQL</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact1">
+      <h2>Let's Connect</h2>
+      <form class="contact-form">
+        <input type="text" name="from_name" placeholder="Your Name" required />
+        <input type="email" name="from_email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Prashant's Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- EmailJS and Script -->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
