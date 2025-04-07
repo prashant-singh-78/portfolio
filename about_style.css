@@ -13,12 +13,16 @@ body {
 
 
 nav {
-    background-color: #6a1b9a;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    nav {
+        background-color: rgba(106, 27, 154, 0.3); /* semi-transparent violet */
+        backdrop-filter: blur(10px); /* blur effect */
+        -webkit-backdrop-filter: blur(10px); /* for Safari */
+        padding: 1rem;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+    };
    
 }
 
